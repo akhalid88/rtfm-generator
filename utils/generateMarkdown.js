@@ -24,7 +24,6 @@ function generateMarkdown(data) {
   5. [Licenses](#licenses)
   6. [Author](#author)
 
-
   -----------------------
   ## Description
   ${data.description}
