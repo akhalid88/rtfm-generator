@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Packages and JS files required for functionality
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
@@ -6,8 +6,7 @@ const generator = require('./utils/generateMarkdown.js');
 
 const writeToFile = util.promisify(fs.writeFile);
 
-
-// TODO: Create an array of questions for user input
+// Array of questions to ask user
 const questions = [
 	{
 		type: 'input',
@@ -62,6 +61,7 @@ const questions = [
 	}
 ];
 
+// Prompt user
 const promptUser = function (array) {
 	return inquirer.prompt(array);
 }
@@ -73,7 +73,7 @@ const promptUser = function (array) {
 	// );
 // }
 
-// TODO: Create a function to initialize app
+// Initialize app
 async function init() {
 	try {
 		const answers = await promptUser(questions);
@@ -81,8 +81,9 @@ async function init() {
 		const readme = generator.generateMarkdown(answers);
 
 		writeToFile("READMETOO.md", readme);
-		console.log("Huzzah!");
-		// console.log(readme);
+
+		console.log("Huzzah! You wrote a file");
+
 	} catch (err) {
 		console.log(err);
 	}

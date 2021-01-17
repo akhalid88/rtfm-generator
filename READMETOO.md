@@ -1,6 +1,6 @@
-# Port of Folio 
+# zxcv 
   This readme has been procedurally generated 
-
+  QWERTYUIOPOASDFGHJKLZXCVBNM
   -----------------------
   ## Table of Contents
   1. [Description](#description)
@@ -12,36 +12,45 @@
 
   -----------------------
   ## Description
-  My portfolio website
+  zxcv
 
   -----------------------
   ## Deployed link
-  https://akhalid88.github.io/port-of-folio/
+  zxcv
 
   -----------------------
   ## Commands
   To install dependencies run the following command:
   ```
-  npm install
+  zxcv
   ```
 
   To run tests run the following command:
   ```
-  npm test this
+  zxcv
   ```
 
   -----------------------
   ## Use and Contribution
-  To use this repo you will need a working knowledge of Javascript, Bulma CSS, and Tae-Kwon-Do.
+  To use this repo you will need a working knowledge of zxcv. 
 
-  If you would like to contribute, you will need to know how to write clean code.
+  To run this tool use the following command. This will generate a markdown file in the root folder with the name of 'READMETOO.md
+
+  ```
+  node index.js
+  ```
+
+
+
+  If you would like to contribute, you will need to know zxcv.
 
   -----------------------
   ## Licenses
-  This project uses a MIT license.
+  This project uses a Apache license.
 
   -----------------------
   ## Author
-  Created by akhalid88
-  Email: akhalid.code@gmail.com
+  Created by zxcv
+  Email: zxcv
+  GitHub: https://github.com/zxcv/
   

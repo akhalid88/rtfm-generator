@@ -8,13 +8,15 @@ function renderLicenseLink(license) { }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) {
+  return "QWERTYUIOPOASDFGHJKLZXCVBNM";
+ }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.project} 
   This readme has been procedurally generated 
-
+  ${renderLicenseSection()}
   -----------------------
   ## Table of Contents
   1. [Description](#description)
@@ -46,7 +48,15 @@ function generateMarkdown(data) {
 
   -----------------------
   ## Use and Contribution
-  To use this repo you will need a working knowledge of ${data.repoInfo}.
+  To use this repo you will need a working knowledge of ${data.repoInfo}. 
+
+  To run this tool use the following command. This will generate a markdown file in the root folder with the name of 'READMETOO.md
+
+  \`\`\`
+  node index.js
+  \`\`\`
+
+
 
   If you would like to contribute, you will need to know ${data.repoContribute}.
 
@@ -58,6 +68,7 @@ function generateMarkdown(data) {
   ## Author
   Created by ${data.name}
   Email: ${data.email}
+  GitHub: https://github.com/${data.name}/
   `;
 }
 
