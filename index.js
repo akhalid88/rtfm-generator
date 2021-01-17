@@ -2,6 +2,10 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generator = require('./utils/generateMarkdown.js');
+
+const writeToFile = util.promisify(fs.writeFile);
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -19,6 +23,11 @@ const questions = [
 		type: 'input',
 		name: 'project',
 		message: "What is your project's name?"
+	},
+	{
+		type: 'input',
+		name: 'link',
+		message: "Where is your project deployed?"
 	},
 	{
 		type: 'input',
@@ -53,23 +62,27 @@ const questions = [
 	}
 ];
 
-const promptUser = function(array) {
+const promptUser = function (array) {
 	return inquirer.prompt(array);
 }
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(data) {
+	// fs.writeFile('READMETOO.md', JSON.stringify(data, null, ' '), (err) =>
+	// 	err ? console.log(err) : console.log("Huzzah!")
+	// );
+// }
 
 // TODO: Create a function to initialize app
 async function init() {
 	try {
 		const answers = await promptUser(questions);
 
-		const readme = generateReadMe(answers);
+		const readme = generator.generateMarkdown(answers);
 
-		// writeToFile = (filename, readme);
-		// console.log("Test");
-		// console.log(answers);
+		writeToFile("READMETOO.md", readme);
+		console.log("Huzzah!");
+		// console.log(readme);
 	} catch (err) {
 		console.log(err);
 	}
