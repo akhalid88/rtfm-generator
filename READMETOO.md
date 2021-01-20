@@ -1,4 +1,4 @@
-# qwerqwer  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+# RTFM Generator  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
   This readme has been procedurally generated 
   
   -----------------------
@@ -14,22 +14,22 @@
 
   -----------------------
   ## Description
-  qwerqwer
+  This is a template
 
   -----------------------
   ## Deployed link
-  qwerqwer
+  https://github.com/akhalid88/rtfm-generator
 
   -----------------------
   ## Installation
   To install dependencies run the following command:
   ```
-  wqer
+  npm install
   ```
 
   -----------------------
   ## Usage
-  To use this repo you will need a working knowledge of qwer. 
+  To use this repo you will need a working knowledge of Javascript and Node. 
 
   To run this tool use the following command. This will generate a markdown file in the root folder with the name of 'READMETOO.md
 
@@ -39,23 +39,23 @@
 
   -----------------------
   ## Licenses
-  This project uses a [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0) license. 
+  This project uses a [MIT License](https://opensource.org/licenses/MIT). 
 
   -----------------------
   ## Contributing
-  If you would like to contribute, you will need to know qwer.
+  If you would like to contribute, you will need to know Javascript and Node.
 
   -----------------------
   ## Tests
   To run tests run the following command:
   ```
-  qwer
+  NA
   ```
 
   -----------------------
   ## Questions
-  Created by qwer
-  If you have any questions you can reach me at the following email: qwqwer
+  Created by akhalid88
+  If you have any questions you can reach me at the following email: [akhalid.code@gmail.com](mailto:akhalid.code@gmail.com)
 
-  Follow my other work at GitHub: https://github.com/qwer/
+  Follow my other work at GitHub: https://github.com/akhalid88/
   

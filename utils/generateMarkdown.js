@@ -126,7 +126,7 @@ function generateMarkdown(data) {
   -----------------------
   ## Questions
   Created by ${data.name}
-  If you have any questions you can reach me at the following email: ${data.email}
+  If you have any questions you can reach me at the following email: [${data.email}](mailto:${data.email})
 
   Follow my other work at GitHub: https://github.com/${data.name}/
   `;
