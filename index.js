@@ -66,13 +66,6 @@ const promptUser = function (array) {
 	return inquirer.prompt(array);
 }
 
-// TODO: Create a function to write README file
-// function writeToFile(data) {
-	// fs.writeFile('READMETOO.md', JSON.stringify(data, null, ' '), (err) =>
-	// 	err ? console.log(err) : console.log("Huzzah!")
-	// );
-// }
-
 // Initialize app
 async function init() {
 	try {
