@@ -51,10 +51,11 @@ function generateMarkdown(data) {
   2. [Deployed link](#deployed-link)
   3. [Installation](#installation)
   4. [Usage](#usage)
-  5. [Licenses](#licenses)
-  6. [Contributing](#contributing)
-  7. [Tests](#tests)
-  8. [Questions](#questions)
+  5. [Code snippets](#code-snippets)
+  6. [Licenses](#licenses)
+  7. [Contributing](#contributing)
+  8. [Tests](#tests)
+  9. [Questions](#questions)
 
   -----------------------
   ## Description
@@ -80,7 +81,9 @@ function generateMarkdown(data) {
   \`\`\`
   node index.js
   \`\`\`
-
+  -----------------------
+  ## Code snippets
+  
   -----------------------
   ## Licenses
   This project uses a ${renderLicenseLink(data.license)}. 
@@ -99,6 +102,7 @@ function generateMarkdown(data) {
   -----------------------
   ## Questions
   Created by ${data.name}
+  
   If you have any questions you can reach me at the following email: [${data.email}](mailto:${data.email})
 
   Follow my other work at GitHub: https://github.com/${data.name}/
